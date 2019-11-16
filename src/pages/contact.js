@@ -4,14 +4,17 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import { PageHeader, Banner } from "../utils"
+import contactImg from '../images/bcg/contactBcg.jpeg'
+import AboutPage from "./about"
 
 const ContactPage = () => (
     <Layout>
         <SEO title="Contact" keywords={['gastby', 'application', 'react']} />
-        <h3>This is the contact page</h3>
-        <div className="container">
-
-        </div>
+        <PageHeader img={contactImg}>
+            <Banner title="eatery" subtitle="contact us">
+            </Banner>
+        </PageHeader>
     </Layout>
 )
 
