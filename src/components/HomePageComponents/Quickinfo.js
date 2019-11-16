@@ -10,8 +10,9 @@ export default class QuickInfo extends Component {
             <Section>
                 <Title message="let us tell you" title="Our mission" />
                 <QuickInfoWrapper>
-                    <p className='text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi a alias est aperiam fugit, ipsum ratione ut dolorem praesentium commodi,
-                        nobis consequuntur quia eius veniam at architecto ad fugiat ab!
+                    <p className='text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam nostrum animi saepe corporis assumenda suscipit fugit harum sapiente tenetur voluptate tempore debitis excepturi quis nobis, accusantium error dolorum voluptatibus! Eveniet.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam nostrum animi saepe corporis assumenda suscipit fugit harum sapiente tenetur voluptate tempore debitis excepturi quis nobis, accusantium error dolorum voluptatibus! Eveniet.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam nostrum animi saepe corporis assumenda suscipit fugit harum sapiente tenetur voluptate tempore debitis excepturi quis nobis, accusantium error dolorum voluptatibus! Eveniet.
                     </p>
                     <Link to="/about/" style={{ textDecoration: "none" }}>
                         <SectionButton style={{ margin: '2rem auto' }}>about</SectionButton>
