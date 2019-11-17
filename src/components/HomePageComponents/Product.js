@@ -4,8 +4,8 @@ import { styles } from '../../utils';
 import Img from 'gatsby-image';
 
 export default function Product({ product }) {
-    const { name, price, ingredients } = product
-    const { fixed } = product.img
+    const { name, price, ingredients } = product;
+    const { fixed } = product.img;
 
     return (
         <ProductWrapper>

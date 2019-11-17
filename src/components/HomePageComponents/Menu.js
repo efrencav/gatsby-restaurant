@@ -3,7 +3,7 @@ import Product from './Product';
 import { StaticQuery, graphql } from 'gatsby';
 import { Section, Title, SectionButton } from '../../utils';
 import styled from 'styled-components';
-import { Link } from 'gatsby';
+// import { Link } from 'gatsby';
 
 const PRODUCTS = graphql`
 {
