@@ -5,7 +5,7 @@ import Img from 'gatsby-image';
 
 export default function Product({ product }) {
     const { name, price, ingredients } = product;
-    const { fixed } = product.img;
+    const { fixed } = product.image;
 
     return (
         <ProductWrapper>
@@ -35,6 +35,19 @@ const ProductWrapper = styled.div`
     justify-content:space-between;
     font-size:1.4rem;
     text-transform: uppercase;
+}
+.name{
+    color:${styles.colors.mainYellow};
+    margin-top: 0.5rem;
+}
+.price {
+    color:${styles.colors.mainYellow};
+    margin-top: 0.5rem;   
+}
+.info{
+    margin-top: 0.5rem;
+    word-spacing: 0.2rem;
+    text-transform: lowercase;
 }
 `
 
